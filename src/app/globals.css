@@ -21,10 +21,17 @@ a {
   text-decoration: none;
 }
 
-.light {
+.dark {
   --bg: black;
   --textColor: white;
   --softBg: #222;
+  --softText: #626262;
+}
+
+.light {
+  --bg: white;
+  --textColor: black;
+  --softBg: #f0f0f0;
   --softText: #626262;
 }
 
